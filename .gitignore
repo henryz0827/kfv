@@ -1,0 +1,9 @@
+data/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+# credentials never belong in the repository
+prediction.txt
+*.pem
+*.key

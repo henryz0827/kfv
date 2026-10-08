@@ -1,0 +1,68 @@
+{
+ "pairs": 116,
+ "live_pairs": 69,
+ "days": 31,
+ "mean_gap_c": 3.171739130434782,
+ "se_gap_c": 1.1041643212790977,
+ "mean_abs_gap_c": 6.232608695652173,
+ "median_abs_gap_c": 4.499999999999998,
+ "p90_abs_gap_c": 13.920000000000005,
+ "mean_kalshi_cost_c": 1.6190297101449271,
+ "share_gap_over_kalshi_cost": 0.8260869565217391,
+ "by_horizon": {
+  "5": {
+   "pairs": 8,
+   "mean_abs_gap_c": 12.537499999999998
+  },
+  "15": {
+   "pairs": 10,
+   "mean_abs_gap_c": 7.9750000000000005
+  },
+  "30": {
+   "pairs": 22,
+   "mean_abs_gap_c": 5.086363636363638
+  },
+  "45": {
+   "pairs": 29,
+   "mean_abs_gap_c": 4.76206896551724
+  }
+ },
+ "repriced": {
+  "pairs": 66,
+  "days": 31,
+  "binance_minus_implied_level_median": 21.488795910066983,
+  "mean_gap_c": 3.0310606060606053,
+  "se_gap_c": 1.0884585144076708,
+  "mean_abs_gap_c": 5.906818181818181,
+  "mean_resid_c": 0.579405710671771,
+  "se_resid_c": 0.8248076116701639,
+  "mean_abs_resid_c": 5.163948894785851,
+  "median_abs_resid_c": 3.7978328868255447,
+  "share_resid_over_kalshi_cost": 0.8333333333333334
+ },
+ "fixings": {
+  "days": 61,
+  "median_diff": 26.79000000000815,
+  "median_abs_diff": 38.820000000006985,
+  "p90_abs_diff": 110.81000000001222,
+  "max_abs_diff": 260.1100000000006,
+  "median_abs_diff_same_minute": 25.839999999996508,
+  "median_diff_same_minute": 23.260000000002037,
+  "days_with_a_split_100_strike": 22,
+  "strikes_split": 27
+ },
+ "listed": {
+  "matched_strikes": 87,
+  "resolved_differently": 1,
+  "cases": [
+   {
+    "date": "2026-08-26",
+    "strike": 78000.0,
+    "polymarket_yes": true,
+    "kalshi_yes": false,
+    "binance_close": 78028.02,
+    "kalshi_settlement": 77993.34
+   }
+  ]
+ }
+}

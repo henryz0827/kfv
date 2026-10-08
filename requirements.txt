@@ -1,0 +1,9 @@
+numpy
+pandas
+pyarrow
+scipy
+statsmodels
+requests
+matplotlib
+pytest
+cryptography

@@ -1,0 +1,226 @@
+{
+ "information": {
+  "all": {
+   "rows": 23476,
+   "events": 940,
+   "coef_market": 1.0502402437515137,
+   "se_market": 0.024391179374681854,
+   "coef_model_gap": -0.06103764905052696,
+   "se_model_gap": 0.05825583627695571,
+   "t_model_gap": -1.0477516580544164,
+   "brier_market": 0.10897983578974271,
+   "brier_model": 0.11600844266221429,
+   "mean_abs_gap_c": 5.765910481021222,
+   "half_spread_c": 0.5548858408587493
+  },
+  "5": {
+   "rows": 2386,
+   "events": 897,
+   "coef_market": 1.0593708091411596,
+   "se_market": 0.03758860495266661,
+   "coef_model_gap": -0.08928307472381586,
+   "se_model_gap": 0.0926698254209057,
+   "t_model_gap": -0.9634535763749716,
+   "brier_market": 0.11022541911148365,
+   "brier_model": 0.12088597193603422,
+   "mean_abs_gap_c": 7.238733993770323,
+   "half_spread_c": 0.5536462699077955
+  },
+  "15": {
+   "rows": 4892,
+   "events": 938,
+   "coef_market": 1.102992820001577,
+   "se_market": 0.03420906676515822,
+   "coef_model_gap": 0.0048148784000328435,
+   "se_model_gap": 0.07568950316418867,
+   "t_model_gap": 0.06361355536431806,
+   "brier_market": 0.10188332992641047,
+   "brier_model": 0.10957168996441244,
+   "mean_abs_gap_c": 6.174542317498923,
+   "half_spread_c": 0.5404742436631236
+  },
+  "30": {
+   "rows": 7300,
+   "events": 940,
+   "coef_market": 1.0290991951259512,
+   "se_market": 0.028570802487517106,
+   "coef_model_gap": -0.06495547460459901,
+   "se_model_gap": 0.08229133453936521,
+   "t_model_gap": -0.7893355353658367,
+   "brier_market": 0.11071811643835616,
+   "brier_model": 0.11753559619341533,
+   "mean_abs_gap_c": 5.615203188527962,
+   "half_spread_c": 0.566986301369863
+  },
+  "45": {
+   "rows": 8898,
+   "events": 940,
+   "coef_market": 1.0407550593299943,
+   "se_market": 0.02960710266469747,
+   "coef_model_gap": -0.08074913145122116,
+   "se_model_gap": 0.075596837324267,
+   "t_model_gap": -1.0681548899308284,
+   "brier_market": 0.11112129411103619,
+   "brier_model": 0.11698648138693275,
+   "mean_abs_gap_c": 5.269954017740995,
+   "half_spread_c": 0.5532142054394246
+  }
+ },
+ "taker_rule": {
+  "all": {
+   "orders": 13785,
+   "of_quotes": 23476,
+   "events": 938,
+   "buy_yes": 6198,
+   "buy_no": 7587,
+   "net_per_contract_c": -2.2248277112803767,
+   "se_c": 0.5251719547350041,
+   "t": -4.2363795157397535,
+   "gross_per_contract_c": -1.4322089227421113,
+   "gross_se_c": 0.5250739041517486,
+   "fee_per_contract_c": 0.7926187885382661
+  },
+  "5": {
+   "orders": 1609,
+   "of_quotes": 2386,
+   "events": 794,
+   "buy_yes": 709,
+   "buy_no": 900,
+   "net_per_contract_c": -2.9510068365444373,
+   "se_c": 0.8531572344634287,
+   "t": -3.458924940606519,
+   "gross_per_contract_c": -2.127408328154133,
+   "gross_se_c": 0.8531317851889465,
+   "fee_per_contract_c": 0.8235985083903046
+  },
+  "15": {
+   "orders": 3043,
+   "of_quotes": 4892,
+   "events": 850,
+   "buy_yes": 1356,
+   "buy_no": 1687,
+   "net_per_contract_c": -2.202320078869536,
+   "se_c": 0.67822918094163,
+   "t": -3.2471620814249116,
+   "gross_per_contract_c": -1.409464344396977,
+   "gross_se_c": 0.6786773481034037,
+   "fee_per_contract_c": 0.7928557344725602
+  },
+  "30": {
+   "orders": 4186,
+   "of_quotes": 7300,
+   "events": 849,
+   "buy_yes": 1894,
+   "buy_no": 2292,
+   "net_per_contract_c": -2.310740563784042,
+   "se_c": 0.7027140149578331,
+   "t": -3.2883086356584186,
+   "gross_per_contract_c": -1.5248447204968945,
+   "gross_se_c": 0.7025923598804681,
+   "fee_per_contract_c": 0.7858958432871476
+  },
+  "45": {
+   "orders": 4947,
+   "of_quotes": 8898,
+   "events": 830,
+   "buy_yes": 2239,
+   "buy_no": 2708,
+   "net_per_contract_c": -1.9297877501516065,
+   "se_c": 0.7011364468260404,
+   "t": -2.7523711809413443,
+   "gross_per_contract_c": -1.141702041641399,
+   "gross_se_c": 0.7008119663919453,
+   "fee_per_contract_c": 0.7880857085102081
+  }
+ },
+ "window": {
+  "first": "2026-08-08 00:00:00",
+  "last": "2026-09-16 23:00:00"
+ },
+ "vol_sensitivity": {
+  "60": {
+   "information": {
+    "rows": 23476,
+    "events": 940,
+    "coef_market": 1.0482298806402437,
+    "se_market": 0.025479916300274116,
+    "coef_model_gap": 0.028352253109536648,
+    "se_model_gap": 0.08500154410476644,
+    "t_model_gap": 0.33354985968951123,
+    "brier_market": 0.10897983578974271,
+    "brier_model": 0.11158954347854771,
+    "mean_abs_gap_c": 3.4296068837958806,
+    "half_spread_c": 0.5548858408587493
+   },
+   "taker_rule": {
+    "orders": 8846,
+    "of_quotes": 23476,
+    "events": 928,
+    "buy_yes": 3427,
+    "buy_no": 5419,
+    "net_per_contract_c": -2.248932851006104,
+    "se_c": 0.6374232960245244,
+    "t": -3.528162313853647,
+    "gross_per_contract_c": -1.4173637802396564,
+    "gross_se_c": 0.6374289232057883,
+    "fee_per_contract_c": 0.8315690707664479
+   }
+  },
+  "360": {
+   "information": {
+    "rows": 23476,
+    "events": 940,
+    "coef_market": 1.0507463036660223,
+    "se_market": 0.02436139566066788,
+    "coef_model_gap": -0.11407690099548676,
+    "se_model_gap": 0.06335429408739726,
+    "t_model_gap": -1.8006182949196412,
+    "brier_market": 0.10897983578974271,
+    "brier_model": 0.1141879512279672,
+    "mean_abs_gap_c": 4.714965821740123,
+    "half_spread_c": 0.5548858408587493
+   },
+   "taker_rule": {
+    "orders": 12024,
+    "of_quotes": 23476,
+    "events": 935,
+    "buy_yes": 5195,
+    "buy_no": 6829,
+    "net_per_contract_c": -2.6602403526280773,
+    "se_c": 0.5523898505155894,
+    "t": -4.8158747850726495,
+    "gross_per_contract_c": -1.8571190951430474,
+    "gross_se_c": 0.5525316108137851,
+    "fee_per_contract_c": 0.80312125748503
+   }
+  },
+  "1440": {
+   "information": {
+    "rows": 23476,
+    "events": 940,
+    "coef_market": 1.0502402437515137,
+    "se_market": 0.024391179374681854,
+    "coef_model_gap": -0.06103764905052696,
+    "se_model_gap": 0.05825583627695571,
+    "t_model_gap": -1.0477516580544164,
+    "brier_market": 0.10897983578974271,
+    "brier_model": 0.11600844266221429,
+    "mean_abs_gap_c": 5.765910481021222,
+    "half_spread_c": 0.5548858408587493
+   },
+   "taker_rule": {
+    "orders": 13785,
+    "of_quotes": 23476,
+    "events": 938,
+    "buy_yes": 6198,
+    "buy_no": 7587,
+    "net_per_contract_c": -2.2248277112803767,
+    "se_c": 0.5251719547350041,
+    "t": -4.2363795157397535,
+    "gross_per_contract_c": -1.4322089227421113,
+    "gross_se_c": 0.5250739041517486,
+    "fee_per_contract_c": 0.7926187885382661
+   }
+  }
+ }
+}
